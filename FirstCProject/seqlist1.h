@@ -46,6 +46,7 @@ int DeleteElem(PSeqList LL, unsigned int ii);
 // 查找ee在顺序表LL中的位置，返回值：0-元素ee在表LL中不存在，>0元素ee在表LL中的位置。
 int LocateElem(PSeqList LL, ElemType* ee);
 
+
 // 删除顺序表LL中头元素，返回值：0-位置ii不合法；1-成功。
 int PopFront(PSeqList LL);
 
